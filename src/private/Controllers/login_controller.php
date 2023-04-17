@@ -2,7 +2,13 @@
 require_once "../Config/config.php";
 $user = User::find_by_Email($_POST["email"]);
 if ($user->password==$_POST["password"]){
-    header("location: ../../private/View/login/logout.php");
+    if ($user->type == "admin"){
+        header("location: ../../private/View/admin.php");
+    }
+    else{
+        $_SESSION["id"] = $user->id;
+        header("location: ../../private/View/user_login.php");
+    }
 }else{
     header("location: ../../private/View/login/login.php?msg=invalid");
 }

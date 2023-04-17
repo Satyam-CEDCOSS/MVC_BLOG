@@ -12,6 +12,5 @@ if($_POST["name"]&&$_POST["email"]&&$_POST["password"]&&$_POST["c_password"]){
     }
 }else{
     header("location: ../../private/View/registration/registration.php?msg=fill");
-    // echo "Fill All Column";
 }
 ?>

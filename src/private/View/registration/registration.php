@@ -25,12 +25,11 @@
 
                                     <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
                                     <!-- Form  -->
-                                    <!-- <form class="mx-1 mx-md-4" action="./private/Controllers/registration_controller.php.php" method="POST"> -->
                                     <form class="mx-1 mx-md-4" action="../../Controllers/registration_controller.php" method="POST">
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="text" id="name" class="form-control" name="name"/>
+                                                <input type="text" id="name" class="form-control" name="name" />
                                                 <label class="form-label" for="form3Example1c">Your Name</label>
                                             </div>
                                         </div>
@@ -38,7 +37,7 @@
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="email" id="mail" class="form-control" name="email"/>
+                                                <input type="email" id="mail" class="form-control" name="email" />
                                                 <label class="form-label" for="form3Example3c">Your Email</label>
                                             </div>
                                         </div>
@@ -46,7 +45,7 @@
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="password" id="pass" class="form-control" name="password"/>
+                                                <input type="password" id="pass" class="form-control" name="password" />
                                                 <label class="form-label" for="form3Example4c">Password</label>
                                             </div>
                                         </div>
@@ -54,15 +53,14 @@
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-key fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="password" id="r_pass" class="form-control" name="c_password"/>
+                                                <input type="password" id="r_pass" class="form-control" name="c_password" />
                                                 <label class="form-label" for="form3Example4cd">Repeat your password</label>
                                             </div>
                                         </div>
                                         <?php
                                         if ($_GET['msg'] == "fill") {
                                             echo "<p class='text-center' style='color: red;' id='error'>Fill All Field</p>";
-                                        }
-                                        else if($_GET['msg'] == "not_match"){
+                                        } else if ($_GET['msg'] == "not_match") {
                                             echo "<p class='text-center' style='color: red;' id='error'>Password Not Match</p>";
                                         }
                                         ?>
@@ -89,4 +87,5 @@
         </div>
     </section>
 </body>
+
 </html>

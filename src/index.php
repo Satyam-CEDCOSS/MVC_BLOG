@@ -1,3 +1,3 @@
 <?php
-header("location: ./private/View/user/user.php")
+header("location: ./private/View/user.php");
 ?>
