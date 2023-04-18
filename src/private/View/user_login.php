@@ -74,7 +74,7 @@ include_once "../Config/config.php"
 
                 <div class="row">
                     <?php
-                    echo $_SESSION["txt"];
+                    echo $_SESSION["login_txt"];
                     ?>
                 </div>
             </section>

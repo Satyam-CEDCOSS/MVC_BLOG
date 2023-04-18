@@ -45,19 +45,11 @@ include_once "../Config/config.php"
         <div class="section__box" style="display: flex;flex-direction:column;justify-content:center;text-align: center;">
             <h1 class="m-3">Top 5 Blogs</h1>
             <div style="display:flex;justify-content:center;" class="m-3">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Blog Id</th>
-                            <th>Blog Title</th>
-                            <th>Blog Content</th>
-                            <th>Likes</th>
-                        </tr>
-                    </thead>
-                    <tbody id="user_table_body">
-                        
-                    </tbody>
-                </table>
+                <div class="row">
+                    <?php
+                    echo $_SESSION["top"];
+                    ?>
+                </div>
             </div>
         </div>
     </section>
