@@ -50,27 +50,7 @@ include_once "../Config/config.php"
                     </ul>
 
                     <ul class="navbar-nav d-flex flex-row">
-                        <!-- Icons -->
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
+                        <!-- Button -->
                         <li class="nav-item me-3 me-lg-0">
                             <a class="nav-link" href="./user.php">
                                 <button class="bg-primary p-1">sign out</button>

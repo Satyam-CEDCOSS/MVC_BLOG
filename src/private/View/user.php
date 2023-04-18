@@ -49,30 +49,10 @@ include_once "../Config/config.php"
                     </ul>
 
                     <ul class="navbar-nav d-flex flex-row">
-                        <!-- Icons -->
+                        <!-- Button -->
                         <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="" rel="nofollow">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li class="nav-item me-3 me-lg-0">
-                            <a class="nav-link" href="./login/login.php" rel="nofollow">
-                                <button class="bg-primary p-1">sign in</button>
+                            <a class="nav-link" href="./login/login.php">
+                                <button class="bg-primary p-1">login</button>
                             </a>
                         </li>
                     </ul>
